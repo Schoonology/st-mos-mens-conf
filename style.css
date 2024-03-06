@@ -3,7 +3,7 @@
 html,
 body {
   background: #03172d;
-  background-image: url(./img/GettyImages-586050376_edited.jpg);
+  background-image: url(./img/concrete.jpg);
   background-blend-mode: multiply;
   color: white;
   font-family: Lato, Arial, Helvetica, sans-serif;
@@ -12,6 +12,11 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  width: 100%;
+}
+
+img {
+  display: block;
   width: 100%;
 }
 
@@ -81,7 +86,7 @@ body {
 
 section {
   /* border-top: 2px solid #507197; */
-  margin: 1rem auto 2rem;
+  margin: 1rem auto 4rem;
   max-width: 40rem;
   padding: 0 1rem;
 }
@@ -151,7 +156,7 @@ h1 {
 }
 
 h2 {
-  color: #E08442;
+  color: #F2AB22;
   font-family: Merriweather, Georgia, 'Times New Roman', Times, serif;
   font-size: 1.25rem;
   font-weight: 700;
@@ -166,7 +171,7 @@ p {
 }
 
 a {
-  color: #E08442;
+  color: #F2AB22;
 }
 
 @media screen and (max-width: 40rem) {
@@ -186,4 +191,9 @@ dt {
 dd {
   line-height: 1.4;
   margin: 0 0 1.4rem;
+}
+
+.img--logo {
+  margin: auto;
+  width: 10rem;
 }
